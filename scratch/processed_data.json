@@ -1,0 +1,2248 @@
+{
+  "teams": {
+    "Majors Athletics": {
+      "W": 11,
+      "L": 3,
+      "T": 0,
+      "PF": 122.0,
+      "PA": 87.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T13:00:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "W",
+          "PF": 7.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-04-07T22:15:00Z",
+          "opp": "Majors Mariners",
+          "result": "W",
+          "PF": 9.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-04-11T13:00:00Z",
+          "opp": "Majors Tigers",
+          "result": "W",
+          "PF": 14.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-04-13T22:30:00Z",
+          "opp": "Majors Rockies",
+          "result": "W",
+          "PF": 7.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-04-18T19:45:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 5.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-04-23T22:15:00Z",
+          "opp": "Majors Cardinals",
+          "result": "W",
+          "PF": 9.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-04-25T17:30:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 10.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-04-28T22:15:00Z",
+          "opp": "Majors Pirates",
+          "result": "W",
+          "PF": 6.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-05-02T19:45:00Z",
+          "opp": "Majors Orioles",
+          "result": "L",
+          "PF": 10.0,
+          "PA": 11.0
+        },
+        {
+          "date": "2026-05-06T22:15:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "W",
+          "PF": 12.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-05-09T13:00:00Z",
+          "opp": "Majors Mariners",
+          "result": "W",
+          "PF": 5.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-05-14T22:15:00Z",
+          "opp": "Majors Tigers",
+          "result": "W",
+          "PF": 6.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-05-16T17:30:00Z",
+          "opp": "Majors Rockies",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 10.0
+        },
+        {
+          "date": "2026-05-18T22:30:00Z",
+          "opp": "Majors Dodgers",
+          "result": "W",
+          "PF": 19.0,
+          "PA": 12.0
+        }
+      ],
+      "Win%": 0.7857142857142857,
+      "Pyth%": 0.6628958268382844,
+      "W_vs_strong": 3,
+      "Games_vs_strong": 6,
+      "runs_vs_higher": 0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T13:00:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-07T22:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-11T13:00:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-13T22:30:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-18T19:45:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-23T22:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-25T17:30:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-28T22:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-05-02T19:45:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-05-06T22:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-05-09T13:00:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-05-14T22:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-05-16T17:30:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-05-18T22:30:00Z",
+          "cumulative_diff_vs_higher": 0
+        }
+      ]
+    },
+    "Majors Dodgers": {
+      "W": 10,
+      "L": 3,
+      "T": 1,
+      "PF": 119.0,
+      "PA": 76.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T15:15:00Z",
+          "opp": "Majors Cardinals",
+          "result": "W",
+          "PF": 2.0,
+          "PA": 1.0
+        },
+        {
+          "date": "2026-04-08T22:00:00Z",
+          "opp": "Majors Pirates",
+          "result": "W",
+          "PF": 4.0,
+          "PA": 2.0
+        },
+        {
+          "date": "2026-04-11T17:30:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 10.0,
+          "PA": 2.0
+        },
+        {
+          "date": "2026-04-15T22:30:00Z",
+          "opp": "Majors Orioles",
+          "result": "W",
+          "PF": 8.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-04-18T19:45:00Z",
+          "opp": "Majors Athletics",
+          "result": "W",
+          "PF": 6.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-04-20T22:15:00Z",
+          "opp": "Majors Tigers",
+          "result": "L",
+          "PF": 8.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-04-25T13:00:00Z",
+          "opp": "Majors Mariners",
+          "result": "W",
+          "PF": 12.0,
+          "PA": 2.0
+        },
+        {
+          "date": "2026-04-30T22:15:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-05-02T17:30:00Z",
+          "opp": "Majors Rockies",
+          "result": "W",
+          "PF": 10.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-05-04T22:15:00Z",
+          "opp": "Majors Cardinals",
+          "result": "W",
+          "PF": 15.0,
+          "PA": 2.0
+        },
+        {
+          "date": "2026-05-09T15:15:00Z",
+          "opp": "Majors Pirates",
+          "result": "W",
+          "PF": 4.0,
+          "PA": 2.0
+        },
+        {
+          "date": "2026-05-13T22:15:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 16.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-05-16T19:45:00Z",
+          "opp": "Majors Orioles",
+          "result": "T",
+          "PF": 9.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-05-18T22:30:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 12.0,
+          "PA": 19.0
+        }
+      ],
+      "Win%": 0.75,
+      "Pyth%": 0.7102874053267794,
+      "W_vs_strong": 5,
+      "Games_vs_strong": 7,
+      "runs_vs_higher": 35.0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T15:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-08T22:00:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-11T17:30:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-15T22:30:00Z",
+          "cumulative_diff_vs_higher": 2.0
+        },
+        {
+          "date": "2026-04-18T19:45:00Z",
+          "cumulative_diff_vs_higher": 3.0
+        },
+        {
+          "date": "2026-04-20T22:15:00Z",
+          "cumulative_diff_vs_higher": 3.0
+        },
+        {
+          "date": "2026-04-25T13:00:00Z",
+          "cumulative_diff_vs_higher": 3.0
+        },
+        {
+          "date": "2026-04-30T22:15:00Z",
+          "cumulative_diff_vs_higher": 3.0
+        },
+        {
+          "date": "2026-05-02T17:30:00Z",
+          "cumulative_diff_vs_higher": 3.0
+        },
+        {
+          "date": "2026-05-04T22:15:00Z",
+          "cumulative_diff_vs_higher": 3.0
+        },
+        {
+          "date": "2026-05-09T15:15:00Z",
+          "cumulative_diff_vs_higher": 3.0
+        },
+        {
+          "date": "2026-05-13T22:15:00Z",
+          "cumulative_diff_vs_higher": 3.0
+        },
+        {
+          "date": "2026-05-16T19:45:00Z",
+          "cumulative_diff_vs_higher": 3.0
+        },
+        {
+          "date": "2026-05-18T22:30:00Z",
+          "cumulative_diff_vs_higher": -4.0
+        }
+      ]
+    },
+    "Majors Orioles": {
+      "W": 9,
+      "L": 2,
+      "T": 2,
+      "PF": 100.0,
+      "PA": 69.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T19:45:00Z",
+          "opp": "Majors Pirates",
+          "result": "W",
+          "PF": 2.0,
+          "PA": 1.0
+        },
+        {
+          "date": "2026-04-06T22:15:00Z",
+          "opp": "Majors Cardinals",
+          "result": "W",
+          "PF": 4.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-04-11T22:00:00Z",
+          "opp": "Majors Mariners",
+          "result": "W",
+          "PF": 7.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-04-15T22:30:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 6.0,
+          "PA": 8.0
+        },
+        {
+          "date": "2026-04-18T17:30:00Z",
+          "opp": "Majors Tigers",
+          "result": "W",
+          "PF": 8.0,
+          "PA": 1.0
+        },
+        {
+          "date": "2026-04-22T22:15:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "W",
+          "PF": 13.0,
+          "PA": 11.0
+        },
+        {
+          "date": "2026-04-25T15:15:00Z",
+          "opp": "Majors Rockies",
+          "result": "W",
+          "PF": 9.0,
+          "PA": 1.0
+        },
+        {
+          "date": "2026-04-27T22:00:00Z",
+          "opp": "Majors Guardians",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-05-02T19:45:00Z",
+          "opp": "Majors Athletics",
+          "result": "W",
+          "PF": 11.0,
+          "PA": 10.0
+        },
+        {
+          "date": "2026-05-09T17:30:00Z",
+          "opp": "Majors Cardinals",
+          "result": "T",
+          "PF": 6.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-05-12T22:15:00Z",
+          "opp": "Majors Mariners",
+          "result": "W",
+          "PF": 15.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-05-16T19:45:00Z",
+          "opp": "Majors Dodgers",
+          "result": "T",
+          "PF": 9.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-05-17T17:00:00Z",
+          "opp": "Majors Pirates",
+          "result": "W",
+          "PF": 7.0,
+          "PA": 6.0
+        }
+      ],
+      "Win%": 0.7692307692307693,
+      "Pyth%": 0.6774608766343744,
+      "W_vs_strong": 4,
+      "Games_vs_strong": 6,
+      "runs_vs_higher": 11.0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T19:45:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-06T22:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-11T22:00:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-15T22:30:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-18T17:30:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-22T22:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-25T15:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-27T22:00:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-05-02T19:45:00Z",
+          "cumulative_diff_vs_higher": 1.0
+        },
+        {
+          "date": "2026-05-09T17:30:00Z",
+          "cumulative_diff_vs_higher": 1.0
+        },
+        {
+          "date": "2026-05-12T22:15:00Z",
+          "cumulative_diff_vs_higher": 1.0
+        },
+        {
+          "date": "2026-05-16T19:45:00Z",
+          "cumulative_diff_vs_higher": 1.0
+        },
+        {
+          "date": "2026-05-17T17:00:00Z",
+          "cumulative_diff_vs_higher": 1.0
+        }
+      ]
+    },
+    "Majors Rockies": {
+      "W": 8,
+      "L": 5,
+      "T": 1,
+      "PF": 96.0,
+      "PA": 75.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T22:00:00Z",
+          "opp": "Majors Tigers",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-04-08T22:15:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "W",
+          "PF": 8.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-04-11T15:15:00Z",
+          "opp": "Majors Pirates",
+          "result": "T",
+          "PF": 1.0,
+          "PA": 1.0
+        },
+        {
+          "date": "2026-04-13T22:30:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 5.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-04-18T22:00:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 11.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-04-22T22:00:00Z",
+          "opp": "Majors Mariners",
+          "result": "L",
+          "PF": 5.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-04-25T15:15:00Z",
+          "opp": "Majors Orioles",
+          "result": "L",
+          "PF": 1.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-04-27T22:15:00Z",
+          "opp": "Majors Cardinals",
+          "result": "W",
+          "PF": 11.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-05-02T17:30:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 7.0,
+          "PA": 10.0
+        },
+        {
+          "date": "2026-05-05T22:15:00Z",
+          "opp": "Majors Tigers",
+          "result": "W",
+          "PF": 10.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-05-09T19:45:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "W",
+          "PF": 8.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-05-11T22:15:00Z",
+          "opp": "Majors Pirates",
+          "result": "W",
+          "PF": 5.0,
+          "PA": 2.0
+        },
+        {
+          "date": "2026-05-16T17:30:00Z",
+          "opp": "Majors Athletics",
+          "result": "W",
+          "PF": 10.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-05-19T22:30:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 11.0,
+          "PA": 3.0
+        }
+      ],
+      "Win%": 0.6071428571428571,
+      "Pyth%": 0.6209824135839903,
+      "W_vs_strong": 2,
+      "Games_vs_strong": 6,
+      "runs_vs_higher": 23.0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T22:00:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-08T22:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-11T15:15:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-13T22:30:00Z",
+          "cumulative_diff_vs_higher": -2.0
+        },
+        {
+          "date": "2026-04-18T22:00:00Z",
+          "cumulative_diff_vs_higher": -2.0
+        },
+        {
+          "date": "2026-04-22T22:00:00Z",
+          "cumulative_diff_vs_higher": -2.0
+        },
+        {
+          "date": "2026-04-25T15:15:00Z",
+          "cumulative_diff_vs_higher": -10.0
+        },
+        {
+          "date": "2026-04-27T22:15:00Z",
+          "cumulative_diff_vs_higher": -10.0
+        },
+        {
+          "date": "2026-05-02T17:30:00Z",
+          "cumulative_diff_vs_higher": -13.0
+        },
+        {
+          "date": "2026-05-05T22:15:00Z",
+          "cumulative_diff_vs_higher": -13.0
+        },
+        {
+          "date": "2026-05-09T19:45:00Z",
+          "cumulative_diff_vs_higher": -13.0
+        },
+        {
+          "date": "2026-05-11T22:15:00Z",
+          "cumulative_diff_vs_higher": -13.0
+        },
+        {
+          "date": "2026-05-16T17:30:00Z",
+          "cumulative_diff_vs_higher": -6.0
+        },
+        {
+          "date": "2026-05-19T22:30:00Z",
+          "cumulative_diff_vs_higher": -6.0
+        }
+      ]
+    },
+    "Majors Pirates": {
+      "W": 6,
+      "L": 6,
+      "T": 1,
+      "PF": 86.0,
+      "PA": 66.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T19:45:00Z",
+          "opp": "Majors Orioles",
+          "result": "L",
+          "PF": 1.0,
+          "PA": 2.0
+        },
+        {
+          "date": "2026-04-08T22:00:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 2.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-04-11T15:15:00Z",
+          "opp": "Majors Rockies",
+          "result": "T",
+          "PF": 1.0,
+          "PA": 1.0
+        },
+        {
+          "date": "2026-04-13T22:00:00Z",
+          "opp": "Majors Mariners",
+          "result": "W",
+          "PF": 11.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-04-18T13:00:00Z",
+          "opp": "Majors Cardinals",
+          "result": "W",
+          "PF": 12.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-04-21T22:15:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 9.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-04-28T22:15:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-05-02T13:00:00Z",
+          "opp": "Majors Tigers",
+          "result": "W",
+          "PF": 9.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-05-09T15:15:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 2.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-05-11T22:15:00Z",
+          "opp": "Majors Rockies",
+          "result": "L",
+          "PF": 2.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-05-16T22:00:00Z",
+          "opp": "Majors Mariners",
+          "result": "W",
+          "PF": 14.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-05-17T17:00:00Z",
+          "opp": "Majors Orioles",
+          "result": "L",
+          "PF": 6.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-05-18T22:00:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "W",
+          "PF": 13.0,
+          "PA": 9.0
+        }
+      ],
+      "Win%": 0.5,
+      "Pyth%": 0.6293396868618107,
+      "W_vs_strong": 0,
+      "Games_vs_strong": 7,
+      "runs_vs_higher": 18.0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T19:45:00Z",
+          "cumulative_diff_vs_higher": -1.0
+        },
+        {
+          "date": "2026-04-08T22:00:00Z",
+          "cumulative_diff_vs_higher": -3.0
+        },
+        {
+          "date": "2026-04-11T15:15:00Z",
+          "cumulative_diff_vs_higher": -3.0
+        },
+        {
+          "date": "2026-04-13T22:00:00Z",
+          "cumulative_diff_vs_higher": -3.0
+        },
+        {
+          "date": "2026-04-18T13:00:00Z",
+          "cumulative_diff_vs_higher": -3.0
+        },
+        {
+          "date": "2026-04-21T22:15:00Z",
+          "cumulative_diff_vs_higher": -3.0
+        },
+        {
+          "date": "2026-04-28T22:15:00Z",
+          "cumulative_diff_vs_higher": -5.0
+        },
+        {
+          "date": "2026-05-02T13:00:00Z",
+          "cumulative_diff_vs_higher": -5.0
+        },
+        {
+          "date": "2026-05-09T15:15:00Z",
+          "cumulative_diff_vs_higher": -7.0
+        },
+        {
+          "date": "2026-05-11T22:15:00Z",
+          "cumulative_diff_vs_higher": -10.0
+        },
+        {
+          "date": "2026-05-16T22:00:00Z",
+          "cumulative_diff_vs_higher": -10.0
+        },
+        {
+          "date": "2026-05-17T17:00:00Z",
+          "cumulative_diff_vs_higher": -11.0
+        },
+        {
+          "date": "2026-05-18T22:00:00Z",
+          "cumulative_diff_vs_higher": -11.0
+        }
+      ]
+    },
+    "Majors Cardinals": {
+      "W": 5,
+      "L": 7,
+      "T": 1,
+      "PF": 101.0,
+      "PA": 97.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T15:15:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 1.0,
+          "PA": 2.0
+        },
+        {
+          "date": "2026-04-06T22:15:00Z",
+          "opp": "Majors Orioles",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-04-11T19:45:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "W",
+          "PF": 13.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-04-14T22:30:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 13.0,
+          "PA": 8.0
+        },
+        {
+          "date": "2026-04-18T13:00:00Z",
+          "opp": "Majors Pirates",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 12.0
+        },
+        {
+          "date": "2026-04-23T22:15:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 5.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-04-27T22:15:00Z",
+          "opp": "Majors Rockies",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 11.0
+        },
+        {
+          "date": "2026-05-02T22:00:00Z",
+          "opp": "Majors Mariners",
+          "result": "W",
+          "PF": 14.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-05-04T22:15:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 2.0,
+          "PA": 15.0
+        },
+        {
+          "date": "2026-05-09T17:30:00Z",
+          "opp": "Majors Orioles",
+          "result": "T",
+          "PF": 6.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-05-12T22:00:00Z",
+          "opp": "Majors Tigers",
+          "result": "W",
+          "PF": 11.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-05-16T13:00:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 17.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-05-19T22:00:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "L",
+          "PF": 8.0,
+          "PA": 9.0
+        }
+      ],
+      "Win%": 0.4230769230769231,
+      "Pyth%": 0.5201937786843447,
+      "W_vs_strong": 0,
+      "Games_vs_strong": 7,
+      "runs_vs_higher": 25.0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T15:15:00Z",
+          "cumulative_diff_vs_higher": -1.0
+        },
+        {
+          "date": "2026-04-06T22:15:00Z",
+          "cumulative_diff_vs_higher": -2.0
+        },
+        {
+          "date": "2026-04-11T19:45:00Z",
+          "cumulative_diff_vs_higher": -2.0
+        },
+        {
+          "date": "2026-04-14T22:30:00Z",
+          "cumulative_diff_vs_higher": -2.0
+        },
+        {
+          "date": "2026-04-18T13:00:00Z",
+          "cumulative_diff_vs_higher": -10.0
+        },
+        {
+          "date": "2026-04-23T22:15:00Z",
+          "cumulative_diff_vs_higher": -14.0
+        },
+        {
+          "date": "2026-04-27T22:15:00Z",
+          "cumulative_diff_vs_higher": -21.0
+        },
+        {
+          "date": "2026-05-02T22:00:00Z",
+          "cumulative_diff_vs_higher": -21.0
+        },
+        {
+          "date": "2026-05-04T22:15:00Z",
+          "cumulative_diff_vs_higher": -34.0
+        },
+        {
+          "date": "2026-05-09T17:30:00Z",
+          "cumulative_diff_vs_higher": -34.0
+        },
+        {
+          "date": "2026-05-12T22:00:00Z",
+          "cumulative_diff_vs_higher": -34.0
+        },
+        {
+          "date": "2026-05-16T13:00:00Z",
+          "cumulative_diff_vs_higher": -34.0
+        },
+        {
+          "date": "2026-05-19T22:00:00Z",
+          "cumulative_diff_vs_higher": -34.0
+        }
+      ]
+    },
+    "Majors Mariners": {
+      "W": 4,
+      "L": 9,
+      "T": 0,
+      "PF": 85.0,
+      "PA": 121.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T17:30:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 10.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-04-07T22:15:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-04-11T22:00:00Z",
+          "opp": "Majors Orioles",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-04-13T22:00:00Z",
+          "opp": "Majors Pirates",
+          "result": "L",
+          "PF": 5.0,
+          "PA": 11.0
+        },
+        {
+          "date": "2026-04-18T15:15:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "L",
+          "PF": 1.0,
+          "PA": 11.0
+        },
+        {
+          "date": "2026-04-22T22:00:00Z",
+          "opp": "Majors Rockies",
+          "result": "W",
+          "PF": 7.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-04-25T13:00:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 2.0,
+          "PA": 12.0
+        },
+        {
+          "date": "2026-04-29T22:15:00Z",
+          "opp": "Majors Tigers",
+          "result": "W",
+          "PF": 12.0,
+          "PA": 4.0
+        },
+        {
+          "date": "2026-05-02T22:00:00Z",
+          "opp": "Majors Cardinals",
+          "result": "L",
+          "PF": 7.0,
+          "PA": 14.0
+        },
+        {
+          "date": "2026-05-07T22:15:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 15.0,
+          "PA": 8.0
+        },
+        {
+          "date": "2026-05-09T13:00:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-05-12T22:15:00Z",
+          "opp": "Majors Orioles",
+          "result": "L",
+          "PF": 5.0,
+          "PA": 15.0
+        },
+        {
+          "date": "2026-05-16T22:00:00Z",
+          "opp": "Majors Pirates",
+          "result": "L",
+          "PF": 9.0,
+          "PA": 14.0
+        }
+      ],
+      "Win%": 0.3076923076923077,
+      "Pyth%": 0.33042165919692673,
+      "W_vs_strong": 1,
+      "Games_vs_strong": 8,
+      "runs_vs_higher": 60.0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T17:30:00Z",
+          "cumulative_diff_vs_higher": 0
+        },
+        {
+          "date": "2026-04-07T22:15:00Z",
+          "cumulative_diff_vs_higher": -5.0
+        },
+        {
+          "date": "2026-04-11T22:00:00Z",
+          "cumulative_diff_vs_higher": -8.0
+        },
+        {
+          "date": "2026-04-13T22:00:00Z",
+          "cumulative_diff_vs_higher": -14.0
+        },
+        {
+          "date": "2026-04-18T15:15:00Z",
+          "cumulative_diff_vs_higher": -24.0
+        },
+        {
+          "date": "2026-04-22T22:00:00Z",
+          "cumulative_diff_vs_higher": -22.0
+        },
+        {
+          "date": "2026-04-25T13:00:00Z",
+          "cumulative_diff_vs_higher": -32.0
+        },
+        {
+          "date": "2026-04-29T22:15:00Z",
+          "cumulative_diff_vs_higher": -24.0
+        },
+        {
+          "date": "2026-05-02T22:00:00Z",
+          "cumulative_diff_vs_higher": -31.0
+        },
+        {
+          "date": "2026-05-07T22:15:00Z",
+          "cumulative_diff_vs_higher": -31.0
+        },
+        {
+          "date": "2026-05-09T13:00:00Z",
+          "cumulative_diff_vs_higher": -32.0
+        },
+        {
+          "date": "2026-05-12T22:15:00Z",
+          "cumulative_diff_vs_higher": -42.0
+        },
+        {
+          "date": "2026-05-16T22:00:00Z",
+          "cumulative_diff_vs_higher": -47.0
+        }
+      ]
+    },
+    "Majors Blue Jays": {
+      "W": 4,
+      "L": 8,
+      "T": 1,
+      "PF": 97.0,
+      "PA": 112.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T13:00:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 6.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-04-08T22:15:00Z",
+          "opp": "Majors Rockies",
+          "result": "L",
+          "PF": 7.0,
+          "PA": 8.0
+        },
+        {
+          "date": "2026-04-11T19:45:00Z",
+          "opp": "Majors Cardinals",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 13.0
+        },
+        {
+          "date": "2026-04-16T22:30:00Z",
+          "opp": "Majors Tigers",
+          "result": "L",
+          "PF": 6.0,
+          "PA": 11.0
+        },
+        {
+          "date": "2026-04-18T15:15:00Z",
+          "opp": "Majors Mariners",
+          "result": "W",
+          "PF": 11.0,
+          "PA": 1.0
+        },
+        {
+          "date": "2026-04-22T22:15:00Z",
+          "opp": "Majors Orioles",
+          "result": "L",
+          "PF": 11.0,
+          "PA": 13.0
+        },
+        {
+          "date": "2026-04-30T22:15:00Z",
+          "opp": "Majors Dodgers",
+          "result": "W",
+          "PF": 6.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-05-02T15:15:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 7.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-05-06T22:15:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 12.0
+        },
+        {
+          "date": "2026-05-09T19:45:00Z",
+          "opp": "Majors Rockies",
+          "result": "L",
+          "PF": 6.0,
+          "PA": 8.0
+        },
+        {
+          "date": "2026-05-16T15:15:00Z",
+          "opp": "Majors Tigers",
+          "result": "T",
+          "PF": 12.0,
+          "PA": 12.0
+        },
+        {
+          "date": "2026-05-18T22:00:00Z",
+          "opp": "Majors Pirates",
+          "result": "L",
+          "PF": 9.0,
+          "PA": 13.0
+        },
+        {
+          "date": "2026-05-19T22:00:00Z",
+          "opp": "Majors Cardinals",
+          "result": "W",
+          "PF": 9.0,
+          "PA": 8.0
+        }
+      ],
+      "Win%": 0.34615384615384615,
+      "Pyth%": 0.42859745820616774,
+      "W_vs_strong": 1,
+      "Games_vs_strong": 7,
+      "runs_vs_higher": 61.0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T13:00:00Z",
+          "cumulative_diff_vs_higher": -1.0
+        },
+        {
+          "date": "2026-04-08T22:15:00Z",
+          "cumulative_diff_vs_higher": -2.0
+        },
+        {
+          "date": "2026-04-11T19:45:00Z",
+          "cumulative_diff_vs_higher": -11.0
+        },
+        {
+          "date": "2026-04-16T22:30:00Z",
+          "cumulative_diff_vs_higher": -11.0
+        },
+        {
+          "date": "2026-04-18T15:15:00Z",
+          "cumulative_diff_vs_higher": -11.0
+        },
+        {
+          "date": "2026-04-22T22:15:00Z",
+          "cumulative_diff_vs_higher": -13.0
+        },
+        {
+          "date": "2026-04-30T22:15:00Z",
+          "cumulative_diff_vs_higher": -10.0
+        },
+        {
+          "date": "2026-05-02T15:15:00Z",
+          "cumulative_diff_vs_higher": -10.0
+        },
+        {
+          "date": "2026-05-06T22:15:00Z",
+          "cumulative_diff_vs_higher": -19.0
+        },
+        {
+          "date": "2026-05-09T19:45:00Z",
+          "cumulative_diff_vs_higher": -21.0
+        },
+        {
+          "date": "2026-05-16T15:15:00Z",
+          "cumulative_diff_vs_higher": -21.0
+        },
+        {
+          "date": "2026-05-18T22:00:00Z",
+          "cumulative_diff_vs_higher": -25.0
+        },
+        {
+          "date": "2026-05-19T22:00:00Z",
+          "cumulative_diff_vs_higher": -24.0
+        }
+      ]
+    },
+    "Majors Tigers": {
+      "W": 4,
+      "L": 8,
+      "T": 1,
+      "PF": 80.0,
+      "PA": 110.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T22:00:00Z",
+          "opp": "Majors Rockies",
+          "result": "W",
+          "PF": 4.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-04-09T22:15:00Z",
+          "opp": "Majors Guardians",
+          "result": "W",
+          "PF": 6.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-04-11T13:00:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 9.0,
+          "PA": 14.0
+        },
+        {
+          "date": "2026-04-16T22:30:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "W",
+          "PF": 11.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-04-18T17:30:00Z",
+          "opp": "Majors Orioles",
+          "result": "L",
+          "PF": 1.0,
+          "PA": 8.0
+        },
+        {
+          "date": "2026-04-20T22:15:00Z",
+          "opp": "Majors Dodgers",
+          "result": "W",
+          "PF": 9.0,
+          "PA": 8.0
+        },
+        {
+          "date": "2026-04-29T22:15:00Z",
+          "opp": "Majors Mariners",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 12.0
+        },
+        {
+          "date": "2026-05-02T13:00:00Z",
+          "opp": "Majors Pirates",
+          "result": "L",
+          "PF": 7.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-05-05T22:15:00Z",
+          "opp": "Majors Rockies",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 10.0
+        },
+        {
+          "date": "2026-05-09T22:00:00Z",
+          "opp": "Majors Guardians",
+          "result": "L",
+          "PF": 5.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-05-12T22:00:00Z",
+          "opp": "Majors Cardinals",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 11.0
+        },
+        {
+          "date": "2026-05-14T22:15:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 5.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-05-16T15:15:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "T",
+          "PF": 12.0,
+          "PA": 12.0
+        }
+      ],
+      "Win%": 0.34615384615384615,
+      "Pyth%": 0.34594594594594597,
+      "W_vs_strong": 2,
+      "Games_vs_strong": 7,
+      "runs_vs_higher": 65.0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T22:00:00Z",
+          "cumulative_diff_vs_higher": 1.0
+        },
+        {
+          "date": "2026-04-09T22:15:00Z",
+          "cumulative_diff_vs_higher": 1.0
+        },
+        {
+          "date": "2026-04-11T13:00:00Z",
+          "cumulative_diff_vs_higher": -4.0
+        },
+        {
+          "date": "2026-04-16T22:30:00Z",
+          "cumulative_diff_vs_higher": 1.0
+        },
+        {
+          "date": "2026-04-18T17:30:00Z",
+          "cumulative_diff_vs_higher": -6.0
+        },
+        {
+          "date": "2026-04-20T22:15:00Z",
+          "cumulative_diff_vs_higher": -5.0
+        },
+        {
+          "date": "2026-04-29T22:15:00Z",
+          "cumulative_diff_vs_higher": -5.0
+        },
+        {
+          "date": "2026-05-02T13:00:00Z",
+          "cumulative_diff_vs_higher": -7.0
+        },
+        {
+          "date": "2026-05-05T22:15:00Z",
+          "cumulative_diff_vs_higher": -14.0
+        },
+        {
+          "date": "2026-05-09T22:00:00Z",
+          "cumulative_diff_vs_higher": -14.0
+        },
+        {
+          "date": "2026-05-12T22:00:00Z",
+          "cumulative_diff_vs_higher": -21.0
+        },
+        {
+          "date": "2026-05-14T22:15:00Z",
+          "cumulative_diff_vs_higher": -22.0
+        },
+        {
+          "date": "2026-05-16T15:15:00Z",
+          "cumulative_diff_vs_higher": -22.0
+        }
+      ]
+    },
+    "Majors Guardians": {
+      "W": 2,
+      "L": 12,
+      "T": 0,
+      "PF": 70.0,
+      "PA": 143.0,
+      "games_timeline": [
+        {
+          "date": "2026-04-04T17:30:00Z",
+          "opp": "Majors Mariners",
+          "result": "L",
+          "PF": 6.0,
+          "PA": 10.0
+        },
+        {
+          "date": "2026-04-09T22:15:00Z",
+          "opp": "Majors Tigers",
+          "result": "L",
+          "PF": 5.0,
+          "PA": 6.0
+        },
+        {
+          "date": "2026-04-11T17:30:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 2.0,
+          "PA": 10.0
+        },
+        {
+          "date": "2026-04-14T22:30:00Z",
+          "opp": "Majors Cardinals",
+          "result": "L",
+          "PF": 8.0,
+          "PA": 13.0
+        },
+        {
+          "date": "2026-04-18T22:00:00Z",
+          "opp": "Majors Rockies",
+          "result": "L",
+          "PF": 9.0,
+          "PA": 11.0
+        },
+        {
+          "date": "2026-04-21T22:15:00Z",
+          "opp": "Majors Pirates",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 9.0
+        },
+        {
+          "date": "2026-04-25T17:30:00Z",
+          "opp": "Majors Athletics",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 10.0
+        },
+        {
+          "date": "2026-04-27T22:00:00Z",
+          "opp": "Majors Orioles",
+          "result": "W",
+          "PF": 4.0,
+          "PA": 3.0
+        },
+        {
+          "date": "2026-05-02T15:15:00Z",
+          "opp": "Majors Blue Jays",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 7.0
+        },
+        {
+          "date": "2026-05-07T22:15:00Z",
+          "opp": "Majors Mariners",
+          "result": "L",
+          "PF": 8.0,
+          "PA": 15.0
+        },
+        {
+          "date": "2026-05-09T22:00:00Z",
+          "opp": "Majors Tigers",
+          "result": "W",
+          "PF": 6.0,
+          "PA": 5.0
+        },
+        {
+          "date": "2026-05-13T22:15:00Z",
+          "opp": "Majors Dodgers",
+          "result": "L",
+          "PF": 4.0,
+          "PA": 16.0
+        },
+        {
+          "date": "2026-05-16T13:00:00Z",
+          "opp": "Majors Cardinals",
+          "result": "L",
+          "PF": 6.0,
+          "PA": 17.0
+        },
+        {
+          "date": "2026-05-19T22:30:00Z",
+          "opp": "Majors Rockies",
+          "result": "L",
+          "PF": 3.0,
+          "PA": 11.0
+        }
+      ],
+      "Win%": 0.14285714285714285,
+      "Pyth%": 0.19330151090772812,
+      "W_vs_strong": 1,
+      "Games_vs_strong": 7,
+      "runs_vs_higher": 70.0,
+      "giant_slayer_timeline": [
+        {
+          "date": "2026-04-04T17:30:00Z",
+          "cumulative_diff_vs_higher": -4.0
+        },
+        {
+          "date": "2026-04-09T22:15:00Z",
+          "cumulative_diff_vs_higher": -5.0
+        },
+        {
+          "date": "2026-04-11T17:30:00Z",
+          "cumulative_diff_vs_higher": -13.0
+        },
+        {
+          "date": "2026-04-14T22:30:00Z",
+          "cumulative_diff_vs_higher": -18.0
+        },
+        {
+          "date": "2026-04-18T22:00:00Z",
+          "cumulative_diff_vs_higher": -20.0
+        },
+        {
+          "date": "2026-04-21T22:15:00Z",
+          "cumulative_diff_vs_higher": -26.0
+        },
+        {
+          "date": "2026-04-25T17:30:00Z",
+          "cumulative_diff_vs_higher": -33.0
+        },
+        {
+          "date": "2026-04-27T22:00:00Z",
+          "cumulative_diff_vs_higher": -32.0
+        },
+        {
+          "date": "2026-05-02T15:15:00Z",
+          "cumulative_diff_vs_higher": -36.0
+        },
+        {
+          "date": "2026-05-07T22:15:00Z",
+          "cumulative_diff_vs_higher": -43.0
+        },
+        {
+          "date": "2026-05-09T22:00:00Z",
+          "cumulative_diff_vs_higher": -42.0
+        },
+        {
+          "date": "2026-05-13T22:15:00Z",
+          "cumulative_diff_vs_higher": -54.0
+        },
+        {
+          "date": "2026-05-16T13:00:00Z",
+          "cumulative_diff_vs_higher": -65.0
+        },
+        {
+          "date": "2026-05-19T22:30:00Z",
+          "cumulative_diff_vs_higher": -73.0
+        }
+      ]
+    }
+  },
+  "strong_teams": [
+    "Majors Athletics",
+    "Majors Orioles",
+    "Majors Dodgers",
+    "Majors Rockies",
+    "Majors Pirates"
+  ],
+  "sorted_by_win_pct": [
+    "Majors Athletics",
+    "Majors Orioles",
+    "Majors Dodgers",
+    "Majors Rockies",
+    "Majors Pirates",
+    "Majors Cardinals",
+    "Majors Blue Jays",
+    "Majors Tigers",
+    "Majors Mariners",
+    "Majors Guardians"
+  ],
+  "games": [
+    {
+      "date": "2026-04-04T13:00:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Blue Jays",
+      "score1": 7.0,
+      "score2": 6.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-04T15:15:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Dodgers",
+      "score1": 1.0,
+      "score2": 2.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-04T17:30:00Z",
+      "team1": "Majors Guardians",
+      "team2": "Majors Mariners",
+      "score1": 6.0,
+      "score2": 10.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-04T19:45:00Z",
+      "team1": "Majors Orioles",
+      "team2": "Majors Pirates",
+      "score1": 2.0,
+      "score2": 1.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-04T22:00:00Z",
+      "team1": "Majors Rockies",
+      "team2": "Majors Tigers",
+      "score1": 3.0,
+      "score2": 4.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-06T22:15:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Orioles",
+      "score1": 3.0,
+      "score2": 4.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-07T22:15:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Mariners",
+      "score1": 9.0,
+      "score2": 4.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-08T22:00:00Z",
+      "team1": "Majors Dodgers",
+      "team2": "Majors Pirates",
+      "score1": 4.0,
+      "score2": 2.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-08T22:15:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Rockies",
+      "score1": 7.0,
+      "score2": 8.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-09T22:15:00Z",
+      "team1": "Majors Guardians",
+      "team2": "Majors Tigers",
+      "score1": 5.0,
+      "score2": 6.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-11T13:00:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Tigers",
+      "score1": 14.0,
+      "score2": 9.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-11T15:15:00Z",
+      "team1": "Majors Pirates",
+      "team2": "Majors Rockies",
+      "score1": 1.0,
+      "score2": 1.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-11T17:30:00Z",
+      "team1": "Majors Dodgers",
+      "team2": "Majors Guardians",
+      "score1": 10.0,
+      "score2": 2.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-11T19:45:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Cardinals",
+      "score1": 4.0,
+      "score2": 13.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-11T22:00:00Z",
+      "team1": "Majors Mariners",
+      "team2": "Majors Orioles",
+      "score1": 4.0,
+      "score2": 7.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-13T22:00:00Z",
+      "team1": "Majors Mariners",
+      "team2": "Majors Pirates",
+      "score1": 5.0,
+      "score2": 11.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-13T22:30:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Rockies",
+      "score1": 7.0,
+      "score2": 5.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-14T22:30:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Guardians",
+      "score1": 13.0,
+      "score2": 8.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-15T22:30:00Z",
+      "team1": "Majors Dodgers",
+      "team2": "Majors Orioles",
+      "score1": 8.0,
+      "score2": 6.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-16T22:30:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Tigers",
+      "score1": 6.0,
+      "score2": 11.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-18T13:00:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Pirates",
+      "score1": 4.0,
+      "score2": 12.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-18T15:15:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Mariners",
+      "score1": 11.0,
+      "score2": 1.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-18T17:30:00Z",
+      "team1": "Majors Orioles",
+      "team2": "Majors Tigers",
+      "score1": 8.0,
+      "score2": 1.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-18T19:45:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Dodgers",
+      "score1": 5.0,
+      "score2": 6.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-18T22:00:00Z",
+      "team1": "Majors Guardians",
+      "team2": "Majors Rockies",
+      "score1": 9.0,
+      "score2": 11.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-20T22:15:00Z",
+      "team1": "Majors Dodgers",
+      "team2": "Majors Tigers",
+      "score1": 8.0,
+      "score2": 9.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-21T22:15:00Z",
+      "team1": "Majors Guardians",
+      "team2": "Majors Pirates",
+      "score1": 3.0,
+      "score2": 9.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-22T22:00:00Z",
+      "team1": "Majors Mariners",
+      "team2": "Majors Rockies",
+      "score1": 7.0,
+      "score2": 5.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-22T22:15:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Orioles",
+      "score1": 11.0,
+      "score2": 13.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-23T22:15:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Cardinals",
+      "score1": 9.0,
+      "score2": 5.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-25T13:00:00Z",
+      "team1": "Majors Dodgers",
+      "team2": "Majors Mariners",
+      "score1": 12.0,
+      "score2": 2.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-25T15:15:00Z",
+      "team1": "Majors Orioles",
+      "team2": "Majors Rockies",
+      "score1": 9.0,
+      "score2": 1.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-25T17:30:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Guardians",
+      "score1": 10.0,
+      "score2": 3.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-27T22:00:00Z",
+      "team1": "Majors Guardians",
+      "team2": "Majors Orioles",
+      "score1": 4.0,
+      "score2": 3.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-27T22:15:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Rockies",
+      "score1": 4.0,
+      "score2": 11.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-28T22:15:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Pirates",
+      "score1": 6.0,
+      "score2": 4.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-29T22:15:00Z",
+      "team1": "Majors Mariners",
+      "team2": "Majors Tigers",
+      "score1": 12.0,
+      "score2": 4.0,
+      "played": true
+    },
+    {
+      "date": "2026-04-30T22:15:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Dodgers",
+      "score1": 6.0,
+      "score2": 3.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-02T13:00:00Z",
+      "team1": "Majors Pirates",
+      "team2": "Majors Tigers",
+      "score1": 9.0,
+      "score2": 7.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-02T15:15:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Guardians",
+      "score1": 7.0,
+      "score2": 3.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-02T17:30:00Z",
+      "team1": "Majors Dodgers",
+      "team2": "Majors Rockies",
+      "score1": 10.0,
+      "score2": 7.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-02T19:45:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Orioles",
+      "score1": 10.0,
+      "score2": 11.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-02T22:00:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Mariners",
+      "score1": 14.0,
+      "score2": 7.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-04T22:15:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Dodgers",
+      "score1": 2.0,
+      "score2": 15.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-05T22:15:00Z",
+      "team1": "Majors Rockies",
+      "team2": "Majors Tigers",
+      "score1": 10.0,
+      "score2": 3.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-06T22:15:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Blue Jays",
+      "score1": 12.0,
+      "score2": 3.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-07T22:15:00Z",
+      "team1": "Majors Guardians",
+      "team2": "Majors Mariners",
+      "score1": 8.0,
+      "score2": 15.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-09T13:00:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Mariners",
+      "score1": 5.0,
+      "score2": 4.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-09T15:15:00Z",
+      "team1": "Majors Dodgers",
+      "team2": "Majors Pirates",
+      "score1": 4.0,
+      "score2": 2.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-09T17:30:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Orioles",
+      "score1": 6.0,
+      "score2": 6.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-09T19:45:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Rockies",
+      "score1": 6.0,
+      "score2": 8.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-09T22:00:00Z",
+      "team1": "Majors Guardians",
+      "team2": "Majors Tigers",
+      "score1": 6.0,
+      "score2": 5.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-11T22:15:00Z",
+      "team1": "Majors Pirates",
+      "team2": "Majors Rockies",
+      "score1": 2.0,
+      "score2": 5.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-12T22:00:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Tigers",
+      "score1": 11.0,
+      "score2": 4.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-12T22:15:00Z",
+      "team1": "Majors Mariners",
+      "team2": "Majors Orioles",
+      "score1": 5.0,
+      "score2": 15.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-13T22:15:00Z",
+      "team1": "Majors Dodgers",
+      "team2": "Majors Guardians",
+      "score1": 16.0,
+      "score2": 4.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-14T22:15:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Tigers",
+      "score1": 6.0,
+      "score2": 5.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-16T13:00:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Guardians",
+      "score1": 17.0,
+      "score2": 6.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-16T15:15:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Tigers",
+      "score1": 12.0,
+      "score2": 12.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-16T17:30:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Rockies",
+      "score1": 3.0,
+      "score2": 10.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-16T19:45:00Z",
+      "team1": "Majors Dodgers",
+      "team2": "Majors Orioles",
+      "score1": 9.0,
+      "score2": 9.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-16T22:00:00Z",
+      "team1": "Majors Mariners",
+      "team2": "Majors Pirates",
+      "score1": 9.0,
+      "score2": 14.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-17T17:00:00Z",
+      "team1": "Majors Orioles",
+      "team2": "Majors Pirates",
+      "score1": 7.0,
+      "score2": 6.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-18T22:00:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Pirates",
+      "score1": 9.0,
+      "score2": 13.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-18T22:30:00Z",
+      "team1": "Majors Athletics",
+      "team2": "Majors Dodgers",
+      "score1": 19.0,
+      "score2": 12.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-19T22:00:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Cardinals",
+      "score1": 9.0,
+      "score2": 8.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-19T22:30:00Z",
+      "team1": "Majors Guardians",
+      "team2": "Majors Rockies",
+      "score1": 3.0,
+      "score2": 11.0,
+      "played": true
+    },
+    {
+      "date": "2026-05-26T22:15:00Z",
+      "team1": "Majors Cardinals",
+      "team2": "Majors Pirates",
+      "score1": null,
+      "score2": null,
+      "played": false
+    },
+    {
+      "date": "2026-05-26T22:30:00Z",
+      "team1": "Majors Blue Jays",
+      "team2": "Majors Mariners",
+      "score1": null,
+      "score2": null,
+      "played": false
+    },
+    {
+      "date": "2026-05-26T22:30:00Z",
+      "team1": "Majors Orioles",
+      "team2": "Majors Tigers",
+      "score1": null,
+      "score2": null,
+      "played": false
+    }
+  ],
+  "giant_slayer_games": [
+    {
+      "date": "2026-04-29T22:15:00Z",
+      "team": "Majors Mariners",
+      "team_rank": 9,
+      "opp": "Majors Tigers",
+      "opp_rank": 8,
+      "score": "12.0 - 4.0",
+      "diff": 8.0
+    },
+    {
+      "date": "2026-05-16T17:30:00Z",
+      "team": "Majors Rockies",
+      "team_rank": 4,
+      "opp": "Majors Athletics",
+      "opp_rank": 1,
+      "score": "10.0 - 3.0",
+      "diff": 7.0
+    },
+    {
+      "date": "2026-04-16T22:30:00Z",
+      "team": "Majors Tigers",
+      "team_rank": 8,
+      "opp": "Majors Blue Jays",
+      "opp_rank": 7,
+      "score": "11.0 - 6.0",
+      "diff": 5.0
+    }
+  ]
+}

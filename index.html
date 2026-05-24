@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAB 1986</title>
+    <link rel="icon" type="image/png" href="retro_mab_icon_final_1779558691104.png">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css?v=2.1">
+</head>
+<body>
+    <div id="app" class="app-container">
+        
+        <!-- View 1: Team Selection -->
+        <div id="view-select" class="view active-view">
+            <header class="hero-header" style="position: relative;">
+                <div class="dropdown" style="position: absolute; top: 1rem; left: 1rem; z-index: 10;">
+                    <button id="btn-menu-home" class="btn-ghost" style="color: #fff;">☰ Menu</button>
+                    <div id="main-menu-home" class="dropdown-content" style="display: none;">
+                        <a href="#" id="menu-help-home">Help</a>
+                        <a href="#" id="menu-about-home">About</a>
+                    </div>
+                </div>
+                <h1><span style="color: #ef4444;">M</span><span style="color: #ffffff;">A</span><span style="color: #3b82f6;">B</span> <span style="color: #ffffff;">1986</span><br><span style="font-size: 0.35em; letter-spacing: 0.05em; color: #991b1b;">MAJORS '26 SEASON EDITION</span></h1>
+                <p>SELECT YOUR FRANCHISE</p>
+            </header>
+            <div class="team-grid" id="team-grid">
+                <!-- Team Cards injected via JS -->
+            </div>
+        </div>
+
+        <!-- View 2: Season Experience -->
+        <div id="view-season" class="view">
+            <nav class="season-nav">
+                <div class="dropdown">
+                    <button id="btn-menu" class="btn-ghost">☰ Menu</button>
+                    <div id="main-menu" class="dropdown-content" style="display: none;">
+                        <a href="#" id="menu-help">How to Play</a>
+                        <a href="#" id="menu-notebook">Season Notebook</a>
+                        <a href="#" id="menu-restart">Restart Season</a>
+                        <a href="#" id="menu-return-rs" style="display: none;">Return to Regular Season</a>
+                        <a href="#" id="menu-about">About</a>
+                        <a href="#" id="menu-quit">Quit Game</a>
+                    </div>
+                </div>
+                <div class="nav-team-info">
+                    <div class="carousel-control">
+                        <button id="btn-prev-team" class="btn-ghost">◁</button>
+                        <h2 id="nav-team-name">Team Name</h2>
+                        <button id="btn-next-team" class="btn-ghost">▷</button>
+                    </div>
+                    <div class="nav-stats">
+                        Record: <span id="nav-record">0-0-0</span> | Power Score (Elo): <span id="nav-elo">1500</span>
+                    </div>
+                </div>
+                <div class="nav-actions">
+                    <button id="btn-vitals" class="btn-ghost" style="margin-right:0.5rem;">Vitals Card</button>
+                    <button id="btn-standings" class="btn-ghost" style="margin-right:1rem;">Standings</button>
+                    <div class="nav-season-progress">
+                        Game <span id="nav-game-current">1</span> of <span id="nav-game-total">X</span>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="dashboard-container">
+                <!-- Left Column: Matchup & Play -->
+                <div class="matchup-column">
+                    <div class="card glass-panel" id="matchup-card">
+                        <div class="matchup-header">
+                            <div class="matchup-date" id="matchup-date">Sat 4/25/26</div>
+                            <div class="matchup-status" id="matchup-status">PRE-GAME</div>
+                        </div>
+
+                        <div class="matchup-teams">
+                            <div class="team-block away">
+                                <h3 id="away-name">Away Team</h3>
+                                <div class="team-elo" id="away-elo">Elo: 1500</div>
+                                <div class="team-streak" id="away-streak">Streak: W0</div>
+                                <div class="sparkline" id="away-sparkline"></div>
+                                <div class="score-display" id="away-score">-</div>
+                                <input type="number" class="manual-score-input" id="away-score-input" style="display:none;" min="0">
+                            </div>
+                            
+                            <div class="matchup-vs">VS</div>
+
+                            <div class="team-block home" id="home-block">
+                                <h3 id="home-name">Home Team</h3>
+                                <div class="team-elo" id="home-elo">Elo: 1500</div>
+                                <div class="team-streak" id="home-streak">Streak: W0</div>
+                                <div class="sparkline" id="home-sparkline"></div>
+                                <div class="score-display" id="home-score">-</div>
+                                <input type="number" class="manual-score-input" id="home-score-input" style="display:none;" min="0">
+                            </div>
+                        </div>
+
+                        <div class="action-box" style="margin-bottom: 1rem;">
+                            <textarea id="manual-note-input" placeholder="Add optional broadcast note (e.g. Grand slam by David!)" style="display: none; width: 100%; margin-bottom: 1rem; background: rgba(0,0,0,0.5); color: white; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 4px; font-family: 'Inter', sans-serif; resize: none;"></textarea>
+                            <button id="btn-play" class="btn-primary">PLAY GAME</button>
+                            <button id="btn-save" class="btn-primary" style="display: none; background: #8b5cf6;">SAVE SCORE</button>
+                            <button id="btn-next" class="btn-secondary" style="display: none;">NEXT GAME →</button>
+                        </div>
+
+                        <div class="prediction-box" id="prediction-box">
+                            <h4>Pre-Game Broadcast</h4>
+                            <p id="prediction-text">Even matchup. 50% chance of winning.</p>
+                            <p id="rivalry-text" class="rivalry-text"></p>
+                        </div>
+
+                        <div id="post-game-box" style="display: none; margin-top: 1rem; padding: 1rem; background: var(--bg-panel); border-left: 4px solid var(--theme-primary); border-radius: 0 8px 8px 0; position: relative;">
+                            <h3 style="color: var(--theme-primary); font-size: 0.9rem; letter-spacing: 1px; margin-bottom: 0.5rem;">POST-GAME REPORT</h3>
+                            <button id="btn-edit-note" class="btn-ghost" style="position: absolute; top: 0.5rem; right: 0.5rem; font-size: 0.8rem; padding: 0.2rem 0.5rem; border: 1px solid rgba(255,255,255,0.2);" title="Edit Broadcast Notes">✎ Add Notes</button>
+                            <div id="post-game-narrative" style="font-family: 'Inter', sans-serif; font-size: 1.1rem; line-height: 1.5;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Biased Stats -->
+                <div class="stats-column">
+                    <div class="card glass-panel">
+                        <h3>Dashboard</h3>
+                        <p class="subtitle">0-Line represents <span id="bias-team-name" style="font-weight:bold;">Your Team</span>'s expected performance.</p>
+                        
+                        <div class="tabs-container">
+                            <button class="tab-btn active" data-tab="run-diff">Game Diff</button>
+                            <button class="tab-btn" data-tab="cum-diff">C Diff</button>
+                            <button class="tab-btn" data-tab="runs-compare">PF vs PA</button>
+                            <button class="tab-btn" data-tab="elo-trend">Elo Trend</button>
+                            <button class="tab-btn" data-tab="pyth-trend">Pyth %</button>
+                        </div>
+                        
+                        <div class="chart-container">
+                            <canvas id="biasChart"></canvas>
+                        </div>
+                        
+                        <div class="dynamic-insights" id="dynamic-insights">
+                            <!-- Injected insights after games -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom: Timeline Scroll -->
+            <div class="timeline-container">
+                <div class="timeline-track" id="timeline-track">
+                    <!-- Timeline nodes injected via JS -->
+                </div>
+                <div style="text-align:center; margin-top:1rem; font-size:0.8rem; color:#9ca3af;">Click past games to time travel.</div>
+            </div>
+        </div>
+
+        <!-- Modals -->
+        <div class="modal-overlay" id="modal-overlay"></div>
+
+        <div class="modal" id="vitals-modal">
+            <button class="modal-close" onclick="closeModals()">✕</button>
+            <h2 id="vitals-team-name">Team Name</h2>
+            <div class="vitals-grid">
+                <div class="vital-stat"><span title="Total Wins, Losses, and Ties.">Record</span><strong id="vitals-record">0-0</strong></div>
+                <div class="vital-stat"><span title="Power rating system originally designed for chess. 1500 is average.">Elo Rating</span><strong><span id="vitals-elo">1500</span> <span id="vitals-elo-trend" style="font-size:1rem;"></span></strong></div>
+                <div class="vital-stat"><span title="Total runs scored by the team.">Runs Scored</span><strong id="vitals-pf">0</strong></div>
+                <div class="vital-stat"><span title="Total runs scored by opponents.">Runs Allowed</span><strong id="vitals-pa">0</strong></div>
+                <div class="vital-stat" style="grid-column: span 2;"><span title="The expected win percentage based solely on run differential.">Pythagorean True %</span><strong><span id="vitals-pyth">0%</span> <span id="vitals-pyth-trend" style="font-size:1rem;"></span></strong></div>
+            </div>
+            <div id="vitals-summary" style="margin-top: 1.5rem; padding: 1rem; background: rgba(0,0,0,0.3); border-radius: 8px; font-size: 0.9rem; line-height: 1.4; color: #d1d5db; text-align: left; font-family: 'Inter', sans-serif;">
+                <!-- Dynamic summary injected here -->
+            </div>
+        </div>
+
+        <div class="modal" id="standings-modal">
+            <button class="modal-close" onclick="closeModals()">✕</button>
+            <h2>League Standings (Dynamic)</h2>
+            <p>As of current game timeline.</p>
+            <div style="flex: 1; overflow-y: auto; margin-top: 1rem;">
+                <table class="standings-table">
+                    <thead><tr><th>Rank</th><th title="Recent Form">Trend</th><th>Team</th><th title="Power rating system originally designed for chess. 1500 is average.">Elo</th><th title="Total Wins, Losses, and Ties.">W-L-T</th></tr></thead>
+                    <tbody id="standings-body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="modal" id="help-modal">
+            <button class="modal-close" onclick="closeModals()">✕</button>
+            <h2>How to Play & Features</h2>
+            <div style="flex: 1; text-align: left; padding: 1rem; color: #d1d5db; font-family: 'Inter', sans-serif; font-size: 1.15rem; line-height: 1.6; overflow-y: auto;">
+                <p style="margin-bottom: 0.8rem;"><strong>Time Travel:</strong> Click any game node on the bottom timeline to travel back in time. Standings, Elo records, narratives, and charts instantly adapt to show the season state at that exact moment.</p>
+                <p style="margin-bottom: 0.8rem;"><strong>Play/Post-Season:</strong> Unplayed games are dashed. Select them to enter manual scores and play out the rest of the season.</p>
+                <p style="margin-bottom: 0.8rem;"><strong>Broadcast Notes:</strong> When entering manual scores, add custom game notes (e.g., "Grand slam by David!"). These notes are injected into the post-game narrative headlines.</p>
+                <p style="margin-bottom: 0.8rem;"><strong>Season Notebook:</strong> Access the "Season Notebook" from the main menu to view all your custom broadcast notes in a chronological feed.</p>
+                <p style="margin-bottom: 0.8rem;"><strong>Dashboard Tabs:</strong> Click the tabs above the chart to switch visualizations: <em>Game Diff</em> (game margin), <em>Cum Diff</em> (cumulative run margin), <em>PF vs PA</em> (runs scored vs runs allowed), and <em>Elo Trend</em> (Elo strength over time).</p>
+                <p style="margin-bottom: 0.8rem;"><strong>Educational Tooltips:</strong> Hover over key statistics (like Elo power score or Trend) to see tooltips explaining how they are calculated.</p>
+                <p style="margin-bottom: 0.8rem;"><strong>Gamepad Controls:</strong> Play with any connected controller! Press <strong>A</strong> to play/save, <strong>Left/Right</strong> to cycle teams, <strong>L2/R2</strong> to travel the timeline, <strong>L1/R1</strong> to change chart tabs, and <strong>Square</strong> for Standings.</p>
+            </div>
+        </div>
+
+        <div class="modal" id="about-modal">
+            <button class="modal-close" onclick="closeModals()">✕</button>
+            <h2>About MAB 1986</h2>
+            <div style="text-align: left; padding: 1rem; color: #d1d5db; font-family: 'Inter', sans-serif;">
+                <p style="margin-bottom: 1rem;">Developed by <strong>Vision Constructs LLC</strong>.</p>
+                <p style="margin-bottom: 1.5rem; font-style: italic; color: #fde047;">"It is 1986. The regular season is coming to an end, but a heavy rainy day has brought the real games to a halt. In the midst of the rain delay, we boot up our trusty Atari or Amiga to keep the baseball spirit alive."</p>
+                <p style="font-size: 0.8rem; color: #9ca3af;"><em>Legal Disclaimer: This application is not affiliated with, endorsed by, or sponsored by Major League Baseball or MLB Advanced Media. All trademarks belong to their respective owners. Intended for non-commercial, local community use only.</em></p>
+            </div>
+        </div>
+
+        <div class="modal" id="notebook-modal">
+            <button class="modal-close" onclick="closeModals()">✕</button>
+            <h2>Season Notebook</h2>
+            <div id="notebook-feed" style="flex: 1; overflow-y: auto; text-align: left; padding: 1rem; color: #d1d5db; font-family: 'Inter', sans-serif;">
+                <!-- Notes injected via JS -->
+            </div>
+        </div>
+
+        <div class="modal" id="generic-modal">
+            <button class="modal-close" onclick="closeModals()">✕</button>
+            <h2 id="generic-modal-title">Alert</h2>
+            <div id="generic-modal-body" style="flex: 1; text-align: left; padding: 1rem; color: #d1d5db; font-family: 'Inter', sans-serif; font-size: 1.15rem; line-height: 1.6; overflow-y: auto;">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Main JS -->
+    <script src="app.js?v=2.1"></script>
+</body>
+</html>
