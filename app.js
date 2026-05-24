@@ -31,7 +31,7 @@ const teamThemes = {
     'Majors Rangers': { primary: '#003278', secondary: '#c0111f' }
 };
 
-const IS_WEB_TRIAL = false;
+const IS_WEB_TRIAL = true;
 const TRIAL_GAME_LIMIT = 5;
 
 let rawData = null;
