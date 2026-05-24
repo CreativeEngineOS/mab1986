@@ -155,7 +155,28 @@ function pollGamepad() {
             const menuParent = mm ? mm.parentElement : null;
             const isMenuOpen = menuParent ? menuParent.classList.contains('active') : false;
             
-            if (isSelectView) {
+            if (isMenuOpen) {
+                // Menu navigation
+                const links = mm.querySelectorAll('a');
+                if (gp.buttons[12]?.pressed || gp.axes[1] < -0.5) { // Up
+                    menuSelectedIndex = (menuSelectedIndex - 1 + links.length) % links.length;
+                    playSound('move');
+                    lastGamepadTime = now;
+                } else if (gp.buttons[13]?.pressed || gp.axes[1] > 0.5) { // Down
+                    menuSelectedIndex = (menuSelectedIndex + 1) % links.length;
+                    playSound('move');
+                    lastGamepadTime = now;
+                } else if (gp.buttons[0]?.pressed) { // A
+                    playSound('select');
+                    links[menuSelectedIndex].click();
+                    menuParent.classList.remove('active');
+                    lastGamepadTime = now;
+                } else if (gp.buttons[1]?.pressed || gp.buttons[9]?.pressed) { // B or Options
+                    menuParent.classList.remove('active');
+                    lastGamepadTime = now;
+                }
+                links.forEach((l, i) => l.style.background = i === menuSelectedIndex ? 'var(--theme-primary)' : 'transparent');
+            } else if (isSelectView) {
                 // Team selection grid
                 const cards = document.querySelectorAll('.team-select-card');
                 if (cards.length > 0) {
@@ -185,27 +206,6 @@ function pollGamepad() {
                         document.getElementById('btn-menu-home').click();
                     }
                 }
-            } else if (isMenuOpen) {
-                // Menu navigation
-                const links = mm.querySelectorAll('a');
-                if (gp.buttons[12]?.pressed || gp.axes[1] < -0.5) { // Up
-                    menuSelectedIndex = (menuSelectedIndex - 1 + links.length) % links.length;
-                    playSound('move');
-                    lastGamepadTime = now;
-                } else if (gp.buttons[13]?.pressed || gp.axes[1] > 0.5) { // Down
-                    menuSelectedIndex = (menuSelectedIndex + 1) % links.length;
-                    playSound('move');
-                    lastGamepadTime = now;
-                } else if (gp.buttons[0]?.pressed) { // A
-                    playSound('select');
-                    links[menuSelectedIndex].click();
-                    menuParent.classList.remove('active');
-                    lastGamepadTime = now;
-                } else if (gp.buttons[1]?.pressed || gp.buttons[9]?.pressed) { // B or Options
-                    menuParent.classList.remove('active');
-                    lastGamepadTime = now;
-                }
-                links.forEach((l, i) => l.style.background = i === menuSelectedIndex ? 'var(--theme-primary)' : 'transparent');
             } else {
                 // Normal season view
                 const awayInput = document.getElementById('away-score-input');
@@ -337,7 +337,8 @@ pollGamepad();
     const btnMenu = document.getElementById('btn-menu');
     btnMenu.addEventListener('click', (e) => {
         e.stopPropagation();
-        btnMenu.parentElement.classList.toggle('active');
+        const isActive = btnMenu.parentElement.classList.toggle('active');
+        if (isActive) menuSelectedIndex = 0;
     });
     document.addEventListener('click', () => {
         btnMenu.parentElement.classList.remove('active');
@@ -358,7 +359,8 @@ pollGamepad();
     if (btnMenuHome) {
         btnMenuHome.addEventListener('click', (e) => {
             e.stopPropagation();
-            btnMenuHome.parentElement.classList.toggle('active');
+            const isActive = btnMenuHome.parentElement.classList.toggle('active');
+            if (isActive) menuSelectedIndex = 0;
         });
         document.getElementById('menu-help-home').addEventListener('click', (e) => { e.preventDefault(); btnMenuHome.parentElement.classList.remove('active'); document.getElementById('modal-overlay').classList.add('active'); document.getElementById('help-modal').classList.add('active'); });
         document.getElementById('menu-about-home').addEventListener('click', (e) => { e.preventDefault(); btnMenuHome.parentElement.classList.remove('active'); document.getElementById('modal-overlay').classList.add('active'); document.getElementById('about-modal').classList.add('active'); });
